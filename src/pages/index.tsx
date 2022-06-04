@@ -1,11 +1,12 @@
-import type { NextPage } from 'next'
+import type { NextPage } from "next";
+import { Banner } from "../components/Banner";
 
 const Home: NextPage = () => {
   return (
     <>
-      
+      <Banner />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
