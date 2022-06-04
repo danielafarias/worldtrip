@@ -1,5 +1,4 @@
 import { Flex } from "@chakra-ui/react";
-import { BackButton } from "./BackButton";
 import { Logo } from "./Logo";
 
 export function Header() {

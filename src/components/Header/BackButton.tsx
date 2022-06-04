@@ -5,7 +5,8 @@ export function BackButton() {
     return (
         <IconButton
             aria-label="Back to homepage"
-            icon={<Icon as={IoIosArrowBack} />}
+            icon={<Icon as={IoIosArrowBack} color="gray.700"/>}
+            colorScheme="whiteAlpha.50"
         />
     );
 }
