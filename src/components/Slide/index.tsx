@@ -1,17 +1,15 @@
-import React, { useRef, useState } from "react";
-// Import Swiper React components
+import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 import styles from "./swiper.module.scss";
 
-// import required modules
 import { Pagination, Navigation } from "swiper";
-import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import { SlideContent } from "./SlideContent";
 
 export function Slide() {
