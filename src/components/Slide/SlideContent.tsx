@@ -1,4 +1,5 @@
 import { Flex, Image, Text } from "@chakra-ui/react";
+import Link from "next/link";
 
 interface SlideContentProps {
   countryName: string;
@@ -22,9 +23,13 @@ export function SlideContent({
         width="100%"
         height="100%"
       >
-        <Text fontSize="4xl" color="gray.50" fontWeight="bold">
-          {countryName}
-        </Text>
+        <Link href={`/${imageName.toLowerCase()}`}>
+          <Text fontSize="4xl" color="gray.50" fontWeight="bold" cursor="pointer" _hover={{
+          color: "yellow.400",
+        }}>
+            {countryName}
+          </Text>
+        </Link>
         <Text fontSize="xl" color="gray.50" fontWeight="bold">
           {description}
         </Text>
