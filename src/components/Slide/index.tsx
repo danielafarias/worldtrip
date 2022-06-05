@@ -14,7 +14,7 @@ import { SlideContent } from "./SlideContent";
 
 export function Slide() {
   return (
-    <Box className={styles.slideContainer} mx="6.25rem" mb="2.5rem">
+    <Box className={styles.slideContainer} mx={["0", "6.25rem"]} mb={["0", "2.5rem"]}>
       <Swiper
         slidesPerView={1}
         spaceBetween={30}

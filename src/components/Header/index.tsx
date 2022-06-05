@@ -8,7 +8,7 @@ export function Header() {
         width="100%"
         align="center"
         justify="center"
-        maxHeight={100}
+        maxHeight={[50, 100]}
     >
       <Logo />
     </Flex>

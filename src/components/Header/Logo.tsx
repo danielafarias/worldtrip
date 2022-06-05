@@ -5,7 +5,7 @@ export function Logo() {
         <Image 
             src="Logo.png"
             alt="Logo"
-            boxSize="11.5rem"
+            boxSize={["5.75rem", "11.5rem"]}
             objectFit="scale-down"
         />
     );
