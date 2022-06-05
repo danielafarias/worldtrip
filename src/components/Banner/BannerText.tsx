@@ -1,4 +1,4 @@
-import { Flex, Stack, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 
 export function BannerText() {
   return (
@@ -10,7 +10,12 @@ export function BannerText() {
       position="absolute"
       zIndex={10}
     >
-      <Text fontSize={["3xl", "4xl"]} color="gray.50" mb={[0, 59]} ml={[0, 140]}>
+      <Text
+        fontSize={["3xl", "4xl"]}
+        color="gray.50"
+        mb={[0, 59]}
+        ml={[0, 140]}
+      >
         Europa
       </Text>
     </Flex>

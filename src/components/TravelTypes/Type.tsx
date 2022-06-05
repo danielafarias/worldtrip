@@ -22,7 +22,7 @@ export function Type({ imageName, text }: TypeProps) {
           boxSize={85}
         />
       ) : (
-        <Icon as={VscCircleFilled} color="yellow.400"/>
+        <Icon as={VscCircleFilled} color="yellow.400" />
       )}
       <Text fontSize="xl" fontWeight="bold">
         {text}

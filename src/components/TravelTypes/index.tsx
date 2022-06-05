@@ -3,7 +3,13 @@ import { Type } from "./Type";
 
 export function TravelTypes() {
   return (
-    <Flex justify="space-around" align="center" my={["2.25rem", "5rem"]} flexWrap="wrap" mx={[50, 0]}>
+    <Flex
+      justify="space-around"
+      align="center"
+      my={["2.25rem", "5rem"]}
+      flexWrap="wrap"
+      mx={[50, 0]}
+    >
       <Type imageName="cocktail" text="vida noturna" />
       <Type imageName="surf" text="praia" />
       <Type imageName="building" text="moderno" />

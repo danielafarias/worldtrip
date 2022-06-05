@@ -1,4 +1,4 @@
-import { Avatar, Box, Flex, HStack, Image, Text, VStack } from "@chakra-ui/react";
+import { Avatar, Box, Flex, Image, Text, VStack } from "@chakra-ui/react";
 
 export function Card() {
   return (
@@ -23,14 +23,12 @@ export function Card() {
       />
       <Flex justify="space-around" align="center" my="18px">
         <VStack spacing="12px" align="flex-start">
-            <Text fontSize="lg" fontWeight="bold">
-                Londres
-            </Text>
-            <Text>
-                Reino Unido
-            </Text>
+          <Text fontSize="lg" fontWeight="bold">
+            Londres
+          </Text>
+          <Text>Reino Unido</Text>
         </VStack>
-        <Avatar size='sm' name='London flag' src='London flag.png' />
+        <Avatar size="sm" name="London flag" src="London flag.png" />
       </Flex>
     </Box>
   );
