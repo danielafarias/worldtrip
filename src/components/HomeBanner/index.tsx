@@ -3,7 +3,7 @@ import { BannerImage } from "./BannerImage";
 import { BannerText } from "./BannerText";
 import { ImageContainer } from "./ImageContainer";
 
-export function Banner() {
+export function HomeBanner() {
   const isWideVersion = useBreakpointValue({
     base: false,
     lg: true,
