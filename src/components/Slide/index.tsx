@@ -7,11 +7,12 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import styles from './swiper.module.scss';
+import styles from "./swiper.module.scss";
 
 // import required modules
 import { Pagination, Navigation } from "swiper";
-import { Box, Image } from "@chakra-ui/react";
+import { Box, Flex, Image, Text } from "@chakra-ui/react";
+import { SlideContent } from "./SlideContent";
 
 export function Slide() {
   return (
@@ -26,13 +27,42 @@ export function Slide() {
         navigation={true}
         modules={[Pagination, Navigation]}
         className="mySwiper"
-  
       >
-        <SwiperSlide><Image src="europe.jpg" boxSize="100%" alt="Europe"/></SwiperSlide>
-        <SwiperSlide><Image src="asia.jpg" boxSize="100%" alt="Asia"/></SwiperSlide>
-        <SwiperSlide><Image src="africa.jpg" boxSize="100%" alt="Africa"/></SwiperSlide>
-        <SwiperSlide><Image src="latin.jpg" boxSize="100%" alt="Latin America"/></SwiperSlide>
-        <SwiperSlide><Image src="oceania.jpg" boxSize="100%" alt="Oceania"/></SwiperSlide>
+        <SwiperSlide>
+          <SlideContent
+            countryName="Europa"
+            description="O continente mais antigo."
+            imageName="Europe"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SlideContent
+            countryName="Ásia"
+            description="O continente mais grandioso."
+            imageName="Asia"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SlideContent
+            countryName="África"
+            description="O continente mais multicultural."
+            imageName="Africa"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SlideContent
+            countryName="América Latina"
+            description="A região da América mais multiétnica."
+            imageName="Latin America"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SlideContent
+            countryName="Oceania"
+            description="O continente com ilhas extraordinárias."
+            imageName="Oceania"
+          />
+        </SwiperSlide>
       </Swiper>
     </Box>
   );
