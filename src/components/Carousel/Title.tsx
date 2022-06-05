@@ -2,7 +2,7 @@ import { Flex, Text } from "@chakra-ui/react";
 
 export function Title() {
   return (
-    <Flex align="center" justify="center" direction="column" my={52}>
+    <Flex align="center" justify="center" direction="column" my='3.25rem'>
       <Text fontSize="4xl" fontWeight="500" noOfLines={2}>
         Vamos nessa?
       </Text>

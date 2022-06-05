@@ -15,7 +15,7 @@ import { Box, Image } from "@chakra-ui/react";
 
 export function Slide() {
   return (
-    <Box className={styles.slideContainer}>
+    <Box className={styles.slideContainer} mx="6.25rem" mb="2.5rem">
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
