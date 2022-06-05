@@ -31,6 +31,7 @@ Foram usadas as seguintes tecnologias:
 - TypeScript;
 - SASS;
 - ChakraUI;
+- Swiper;
 
 ## 🚀 Instalando `<worldtrip>`
 
